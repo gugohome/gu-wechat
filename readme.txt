@@ -1,4 +1,2 @@
-Git is a distributed version control system.
-Git is free software distributed under the GPL.
-Git has a mutable index called stage.
-Git tracks changes of files.
+这是一个微信小程序的逻辑版。
+设计到一些列表渲染、页面之间的数据传递，有兴趣的可以看看。
