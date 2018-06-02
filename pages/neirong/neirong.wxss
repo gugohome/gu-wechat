@@ -1,0 +1,37 @@
+.page{
+  position: relative;
+  background-color: #fff;
+}
+.nav{
+ position: absolute;
+ left: 0;
+ width: 200rpx;
+ top: 0;
+  flex-direction: column;
+}
+.nav .item{
+ font-size: 40rpx;
+ line-height: 80rpx;
+ text-align: center;
+ background: #fff;
+ font-weight: bold;
+}
+.nav .item.active{
+  background-color: #4cd964;
+  color: #fff;
+}
+.section{
+  margin-left:200rpx; 
+  background-color:#4cd964;
+  flex-direction: row;
+}
+.article{
+  margin-top :20rpx;
+  padding-left:40rpx;
+  padding-top: 15rpx;
+  font-size:40rpx;
+  background: #4cd964;
+  width:200rpx; 
+  height: 100rpx;
+  margin-right:40rpx;
+}

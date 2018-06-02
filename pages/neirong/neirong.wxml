@@ -1,0 +1,19 @@
+<view class="page">
+  <view class="nav">
+  <view wx:for="{{liebiao}}" wx:key data-index="{{index}}"
+ class="item {{currentIndex==index?'active':''}}"
+ bindtap="changeTabbar">{{item}}</view>
+  </view>
+ <view hidden="{{currentIndex!==0}}" class="section"> 
+  <view wx:for="{{yanse}}" wx:key style='color:white' class="article" bindtap="chuanshushuju" data-item="{{item}}">{{item}}</view>
+ </view>
+
+ <view hidden="{{currentIndex!==1}}" class="section"> 
+  <view wx:for="{{shuzi}}" wx:key style='color:white' class="article" bindtap="chuanshushuju" data-item="{{item}}">{{item}}</view>
+ </view>
+
+  <view hidden="{{currentIndex!==2}}" class="section"> 
+  <view wx:for="{{zidingyi}}" wx:key style='color:white' class="article" bindtap="chuanshushuju" data-item="{{item}}">{{item}}</view>
+ </view>
+
+ </view>

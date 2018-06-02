@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择容器数量",
+  "usingComponents": {
+    "direct-block": "/components/direct-block/direct-block"
+  }
+  }

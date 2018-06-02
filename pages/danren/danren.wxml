@@ -1,0 +1,9 @@
+<view class="section">
+  <view class="section__title">填充带选择物品</view>
+  <view class="flex-wrp" style="flex-direction:column;">
+    <view wx:if="{{!zhuangTai}}" wx:for="{{rongqi}}" wx:key="unique" class="flex-item bc" style='color:white' bindtap="fill" data-index="{{index}}" > {{item.id}} </view>
+    <view  wx:if="{{zhuangTai}}" wx:for="{{gaiZi}}" wx:key="unique" class="flex-item bc" style='color:white' bindtap="fill" data-index="{{index}}" > {{item.id}} </view>
+  </view>
+  <button bindtap="switch" type="primary" disabled="{{disabled}}"> 打乱 </button>
+</view>
+

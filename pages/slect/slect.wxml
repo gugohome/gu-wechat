@@ -1,0 +1,8 @@
+<direct-block wx:if="{{showDirect!==false}}" bind:close="changeState" detailText="{{detail}}">
+</direct-block>
+<view class="section">
+  <view class="section__title" style='color:white'>几选几</view>
+  <view class="flex-wrp">
+    <view  wx:for="{{selectList}}" wx:key class="bc" bindtap="changeSlect" data-index="{{index}}">{{item}}</view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+.page-section{
+  margin-bottom: 20rpx;
+}
+.flex-wrp {display: flex;}
+.bc{
+  font-size: 100rpx;
+  text-align: center;
+  padding-top: 40rpx;
+  margin-left: 80rpx;
+  margin-top:40rpx;
+  background: black;
+  width:100px; 
+  height: 80px;
+  }
